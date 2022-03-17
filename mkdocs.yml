@@ -23,7 +23,7 @@ plugins:
   - git-revision-date
   - mkdocs-jupyter:
       include_source: True
-      execute: True
+      execute: False
 
 markdown_extensions:
   - attr_list
@@ -38,6 +38,7 @@ nav:
   - Home: index.md
   - Chapter 1:
       - chapter_01/intro.ipynb
+      - chapter_01/intro2.md
       - chapter_01/basemaps.ipynb
   - Chapter 2:
       - chapter_02/colorbar.ipynb
